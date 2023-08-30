@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dr_Muscle_App.Pages.SignUpPage3"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                Padding="20,40"
+                >
+                <Frame
+                    Padding="6"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    BackgroundColor="White"
+                    BorderColor="Black"
+                    CornerRadius="{OnPlatform Android=300 , iOS= 220}"
+                    >
+                    <Frame
+                        Padding="2"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        BackgroundColor="Black"
+                        CornerRadius="{OnPlatform Android=300 , iOS= 220}"
+                        >
+                        <Image
+                            Source="logo1" Aspect="AspectFit" HeightRequest="150" WidthRequest="150" />
+                    </Frame>
+                </Frame>
+
+                <Label 
+                    Margin="0,20,0,0"
+                    Text="Join free" 
+                    FontAttributes="Bold" 
+                    FontSize="Title" 
+                    TextColor="Black" 
+                    HorizontalTextAlignment="Center" />
+                <Label 
+                    Padding="40,0"
+                    Text="Save your workouts, progress, and stats" 
+                    FontSize="Medium" 
+                    TextColor="Black" 
+                    HorizontalTextAlignment="Center" 
+                    HorizontalOptions="CenterAndExpand" />
+                <Label
+                    FontSize="Small"
+                    Margin="0,50,0,0"
+                    TextColor="Black"
+                    HorizontalTextAlignment="Center"
+                    Text="Create your account via ..."
+                    />
+                <StackLayout
+                    Margin="0,10,0,0"
+                    Spacing="10"
+                    Orientation="Horizontal"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="StartAndExpand">
+                    <Frame
+                        Padding="4"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        BackgroundColor="White"
+                        BorderColor="#db3737"
+                        CornerRadius="{OnPlatform Android=300 , iOS= 220}"
+                        >
+                        <Frame
+                            HasShadow="False"
+                            Padding="8"
+                            BackgroundColor="#db3737"
+                            CornerRadius="{OnPlatform Android=300 , iOS= 220}">
+                            <Image
+                                Source="google_ic"
+                                WidthRequest="{OnPlatform Android=30,iOS=22}"
+                                HeightRequest="{OnPlatform Android=30,iOS=22}"
+                                Aspect="AspectFit"
+                                />
+                        </Frame>
+                    </Frame>
+                    <Frame
+                         Padding="4"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center"
+                         BackgroundColor="White"
+                         BorderColor="#0856d4"
+                         CornerRadius="{OnPlatform Android=300 , iOS= 220}"
+                         >
+                        <Frame
+                             HasShadow="False"
+                             Padding="8"
+                             BackgroundColor="#0856d4"
+                             CornerRadius="{OnPlatform Android=300 , iOS= 220}">
+                            <Image
+                                 Source="facebook"
+                                 WidthRequest="{OnPlatform Android=30,iOS=22}"
+                                 HeightRequest="{OnPlatform Android=30,iOS=22}"
+                                 Aspect="AspectFit"
+                                 />
+                        </Frame>
+                    </Frame>
+                    <Frame
+                         Padding="4"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center"
+                         BackgroundColor="White"
+                         BorderColor="Black"
+                         CornerRadius="{OnPlatform Android=300 , iOS= 220}"
+                         >
+                        <Frame
+                             HasShadow="False"
+                             Padding="8"
+                             BackgroundColor="Black"
+                             CornerRadius="{OnPlatform Android=300 , iOS= 220}">
+                            <Image
+                                 Source="apple"
+                                 WidthRequest="{OnPlatform Android=30,iOS=22}"
+                                 HeightRequest="{OnPlatform Android=30,iOS=22}"
+                                 Aspect="AspectFit"
+                                 />
+                        </Frame>
+                    </Frame>
+                    <Frame
+                         Padding="4"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center"
+                         BackgroundColor="White"
+                         BorderColor="#6395b0"
+                         CornerRadius="{OnPlatform Android=300 , iOS= 220}"
+                         >
+                        <Frame
+                             HasShadow="False"
+                             Padding="8"
+                             BackgroundColor="#6395b0"
+                             CornerRadius="{OnPlatform Android=300 , iOS= 220}">
+                            <Image
+                                 Source="email"
+                                 WidthRequest="{OnPlatform Android=30,iOS=22}"
+                                 HeightRequest="{OnPlatform Android=30,iOS=22}"
+                                 Aspect="AspectFit"
+                                 />
+                        </Frame>
+                    </Frame>
+
+                </StackLayout>
+                <StackLayout 
+                    Margin="0,40,0,0"
+                    Orientation="Horizontal"
+                    HorizontalOptions="Center"
+                    Spacing="10">
+                    <Label 
+                        VerticalTextAlignment="Center"
+                        HorizontalOptions="CenterAndExpand"
+                        FontSize="Small"
+                        Padding="0"
+                        TextColor="Black" 
+                        Text="Already have an account?"/>
+                    <Label
+                        VerticalTextAlignment="Center"
+                        HorizontalOptions="CenterAndExpand"
+                        Text="Login"
+                        TextColor="Black"
+                        FontSize="Small"
+                        FontAttributes="Bold"
+                        TextDecorations="Underline"
+                        >       
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Login_btn_clicked"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

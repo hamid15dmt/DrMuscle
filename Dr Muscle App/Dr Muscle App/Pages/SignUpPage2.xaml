@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dr_Muscle_App.Pages.SignUpPage2"
+             
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <!-- Background Image -->
+                <Image Source="page3" Aspect="AspectFill"/>
+                <StackLayout
+                
+                Spacing="10"
+                Padding="30"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand">
+                <Image
+                    Source="logo"
+                    HeightRequest="180"
+                    WidthRequest="180"
+                    Aspect="AspectFit"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start"/>
+                <Label 
+                    Margin="0,20,0,0"
+                    Text="Join free" 
+                    FontAttributes="Bold" 
+                    FontSize="Large" 
+                    TextColor="White" 
+                    HorizontalTextAlignment="Start" />
+                <Label 
+                    Margin="0,0,0,30"
+                    Text="Save your workouts, progress, and stats" 
+                    FontSize="Medium" 
+                    TextColor="White" 
+                    HorizontalTextAlignment="Start" 
+                    HorizontalOptions="StartAndExpand" />
+                <Frame
+                    HasShadow="False"
+                    Padding="20,8"
+                    BackgroundColor="#db3737"
+                    CornerRadius="8">
+                    <StackLayout
+                        Orientation="Horizontal">
+                        <Image
+                            Source="google_ic"
+                            WidthRequest="25"
+                            HeightRequest="25"
+                            Aspect="AspectFit"
+                            />
+                        <Label
+                            Margin="30,0,0,0"
+                            VerticalOptions="Center"
+                            VerticalTextAlignment="Center" 
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Center"
+                            FontSize="Small"
+                            TextColor="White"
+                            Text="Sign Up With Gmail"/>
+                    </StackLayout>
+                </Frame>
+                <Frame
+                    HasShadow="False"
+                    Padding="20,8"
+                    BackgroundColor="#0856d4"
+                    CornerRadius="8">
+                    <StackLayout
+                        Orientation="Horizontal">
+                        <Image
+                            Source="facebook"
+                            WidthRequest="25"
+                            HeightRequest="25"
+                            Aspect="AspectFit"
+                            />
+                        <Label
+                            Margin="30,0,0,0"
+                            VerticalOptions="Center"
+                            VerticalTextAlignment="Center" 
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Center"
+                            FontSize="Small"
+                            TextColor="White"
+                            Text="Sign Up With Facebook"/>
+                    </StackLayout>
+                </Frame>
+                <Frame
+                    HasShadow="False"
+                    Padding="20,8"
+                    BackgroundColor="#505152"
+                    CornerRadius="8">
+                    <StackLayout
+                        Orientation="Horizontal">
+                        <Image
+                            Source="apple"
+                            WidthRequest="25"
+                            HeightRequest="25"
+                            Aspect="AspectFit"
+                            />
+                        <Label
+                            Margin="30,0,0,0"
+                            VerticalOptions="Center"
+                            VerticalTextAlignment="Center" 
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Center"
+                            FontSize="Small"
+                            TextColor="White"
+                            Text="Sign Up With Apple"/>
+                    </StackLayout>
+                </Frame>
+                <Frame
+                    HasShadow="False"
+                    Padding="20,8"
+                    BackgroundColor="#6395b0"
+                    CornerRadius="8">
+                    <StackLayout
+                        Orientation="Horizontal">
+                        <Image
+                            Source="email"
+                            WidthRequest="25"
+                            HeightRequest="25"
+                            Aspect="AspectFit"
+                            />
+                        <Label
+                            Margin="40,0,0,0"
+                            VerticalOptions="Center"
+                            VerticalTextAlignment="Center" 
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Center"
+                            FontSize="Small"
+                            TextColor="White"
+                            Text="Sign Up With Email"/>
+                    </StackLayout>
+                </Frame>
+                <StackLayout 
+                    Margin="0,40,0,0"
+                    Orientation="Horizontal"
+                    VerticalOptions="End"
+                    HorizontalOptions="Start"
+                    Spacing="10">
+                    <Label 
+                        VerticalTextAlignment="Center"
+                        HorizontalOptions="CenterAndExpand"
+                        FontSize="Small"
+                        Padding="0"
+                        TextColor="White" 
+                        Text="Already have an account?"/>
+                    <Label
+                        VerticalTextAlignment="Center"
+                        HorizontalOptions="CenterAndExpand"
+                        Text="Login"
+                        TextColor="White"
+                        FontSize="Small"
+                        FontAttributes="Bold"
+                        TextDecorations="Underline"
+                        >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Login_btn_clicked"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+            </StackLayout>
+            </Grid>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,18 @@
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\Dr Muscle App.csproj.AssemblyReference.cache
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\Dr Muscle App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\Pages\SignUpPage1.xaml.g.cs
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\Dr Muscle App.AssemblyInfoInputs.cache
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\Dr Muscle App.AssemblyInfo.cs
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\Dr Muscle App.csproj.CoreCompileInputs.cache
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\bin\Debug\netstandard2.0\Dr Muscle App.deps.json
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\bin\Debug\netstandard2.0\Dr Muscle App.dll
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\bin\Debug\netstandard2.0\ref\Dr Muscle App.dll
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\bin\Debug\netstandard2.0\Dr Muscle App.pdb
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\Dr Muscle App.dll
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\refint\Dr Muscle App.dll
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\Dr Muscle App.pdb
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\Pages\SignUpPage2.xaml.g.cs
+D:\Xamarin\Dr Muscle App\Dr Muscle App\Dr Muscle App\Dr Muscle App\obj\Debug\netstandard2.0\Pages\SignUpPage3.xaml.g.cs

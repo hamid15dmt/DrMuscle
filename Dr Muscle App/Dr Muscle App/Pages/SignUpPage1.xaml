@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dr_Muscle_App.Pages.SignUpPage1"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <ScrollView>
+        <Grid>
+            <!-- Background Image -->
+            <Image Source="page2" Aspect="AspectFill" />
+
+            <!-- Logo and Content -->
+            <StackLayout
+                Padding="30,50"
+                Spacing="20"
+                VerticalOptions="FillAndExpand" 
+                HorizontalOptions="FillAndExpand">
+                <StackLayout
+                    Spacing="10"
+                    VerticalOptions="FillAndExpand"
+                    Margin="40,0">
+                    <Image Source="logo1" Aspect="AspectFit" HeightRequest="120" WidthRequest="120" />
+                    <Label Text="Join free" FontAttributes="Bold" FontSize="Large" TextColor="White" HorizontalTextAlignment="Center" />
+                    <Label Text="Save your workouts, progress, and stats" FontSize="Medium" TextColor="White" HorizontalTextAlignment="Center" 
+                        HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+                <StackLayout
+                    VerticalOptions="End"
+                    HorizontalOptions="FillAndExpand"
+                    Spacing="8">
+                    <Frame
+                        
+                        HasShadow="False"
+                        HorizontalOptions="Center"
+                        CornerRadius="{OnPlatform Android=30 , iOS= 22}"
+                        BackgroundColor="White"
+                        Padding="1">
+                        <ImageButton
+                        Margin="0"
+                        Source="signup_email_btn"
+                        BackgroundColor="Transparent">
+                        </ImageButton>
+                    </Frame>
+                    <Frame
+                        HasShadow="False"
+                        HorizontalOptions="Center"
+                        CornerRadius="{OnPlatform Android=30 , iOS= 22}"
+                        BackgroundColor="White"
+                        Padding="1">
+                        <ImageButton
+                            Margin="0"
+                            Source="signup_apple_btn"
+                            HorizontalOptions="CenterAndExpand"
+                            BackgroundColor="Transparent">
+                        </ImageButton>
+                    </Frame>
+                    <Frame
+                        HasShadow="False"
+                        HorizontalOptions="Center"
+                        CornerRadius="{OnPlatform Android=30 , iOS= 22}"
+                        BackgroundColor="White"
+                        Padding="1">
+                        <ImageButton
+                            Margin="0"
+                            Source="singup_gmail_btn"
+                            HorizontalOptions="CenterAndExpand"
+                            BackgroundColor="Transparent">
+                            </ImageButton>
+                    </Frame>
+                    <Frame
+                        HasShadow="False"
+                        HorizontalOptions="Center"
+                        CornerRadius="{OnPlatform Android=30 , iOS= 22}"
+                        BackgroundColor="White"
+                        Padding="1">
+                        <ImageButton
+                        Margin="0"
+                        Source="singup_facebook_btn"
+                        BackgroundColor="Transparent">
+                        </ImageButton>
+                    </Frame>
+                    <StackLayout 
+                        Margin="0,20"
+                        Orientation="Horizontal"
+                        HorizontalOptions="End"
+                        Spacing="10">
+                        <Label 
+                            VerticalTextAlignment="Center"
+                            HorizontalOptions="CenterAndExpand"
+                            FontSize="Small"
+                            Padding="0"
+                            TextColor="White" 
+                            Text="Already have an account?"/>
+                        <Button 
+                            HeightRequest="35"
+                            Margin="0"
+                            CornerRadius="{OnPlatform Android=30 , iOS=22}"
+                            Text="LOG IN"
+                            FontSize="Micro"
+                            TextColor="White"
+                            BorderColor="WhiteSmoke"
+                            BorderWidth="2" 
+                            Clicked="Login_btn_clicked"
+                            BackgroundColor="Black">
+                        </Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
